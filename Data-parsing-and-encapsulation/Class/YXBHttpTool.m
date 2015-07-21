@@ -24,6 +24,8 @@
     // 创建请求管理对象
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
+    
+    
     // 发生请求
     [manager POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (success) {
