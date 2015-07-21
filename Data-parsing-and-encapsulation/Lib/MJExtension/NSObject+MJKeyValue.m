@@ -259,6 +259,7 @@
     NSString *key = nil;
     // 1.查看有没有需要替换的key
     if ([self respondsToSelector:@selector(replacedKeyFromPropertyName)]) {
+        
         key = self.replacedKeyFromPropertyName[propertyName];
     }
     // 2.用属性名作为key
