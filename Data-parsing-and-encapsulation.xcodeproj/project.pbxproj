@@ -107,8 +107,8 @@
 		B59ADB921B5D261D00C9D63E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		B59ADB931B5D261D00C9D63E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		B59ADB941B5D261D00C9D63E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		B59ADB9F1B5D26D900C9D63E /* YXBHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXBHttpTool.h; path = ../YXBHttpTool.h; sourceTree = "<group>"; };
-		B59ADBA01B5D26D900C9D63E /* YXBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXBHttpTool.m; path = ../YXBHttpTool.m; sourceTree = "<group>"; };
+		B59ADB9F1B5D26D900C9D63E /* YXBHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXBHttpTool.h; path = Class/YXBHttpTool.h; sourceTree = "<group>"; };
+		B59ADBA01B5D26D900C9D63E /* YXBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXBHttpTool.m; path = Class/YXBHttpTool.m; sourceTree = "<group>"; };
 		B59ADBA91B5D367600C9D63E /* YXBReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBReceiveViewController.h; sourceTree = "<group>"; };
 		B59ADBAA1B5D367600C9D63E /* YXBReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBReceiveViewController.m; sourceTree = "<group>"; };
 		B59ADBAB1B5D367600C9D63E /* YXBReceiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBReceiveViewController.xib; sourceTree = "<group>"; };
@@ -165,6 +165,8 @@
 				B5041B781B5CFABE00662B58 /* Main.storyboard */,
 				B5041B7B1B5CFABE00662B58 /* Images.xcassets */,
 				B5041B7D1B5CFABE00662B58 /* LaunchScreen.xib */,
+				B59ADB9F1B5D26D900C9D63E /* YXBHttpTool.h */,
+				B59ADBA01B5D26D900C9D63E /* YXBHttpTool.m */,
 				B5041B6E1B5CFABE00662B58 /* Supporting Files */,
 			);
 			path = "Data-parsing-and-encapsulation";
@@ -288,8 +290,6 @@
 		B59ADBA31B5D362C00C9D63E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				B59ADB9F1B5D26D900C9D63E /* YXBHttpTool.h */,
-				B59ADBA01B5D26D900C9D63E /* YXBHttpTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
